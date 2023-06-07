@@ -1,5 +1,5 @@
 const gamesLookup = {
-    // politics
+    // politics - Launcher
     'SpecOps': 'politics/40095_wot202c',
     'EmoGame': 'politics/EmoGame',
     'AntiWarGame': 'politics/antiwar_game/_container',
@@ -9,14 +9,14 @@ const gamesLookup = {
     'FlashPortal': 'clones/portal2',
     
     // cannon
-    'NanacaCrash': 'cannon/',
-    'DropKickTheFaint': 'cannon/',
-    'KittenCannon': 'cannon/',
+    'NanacaCrash': 'cannon/nanaca-crash_v110',
+    'DropKickTheFaint': 'cannon/dropkick/dropkickthefaint',
+    'KittenCannon': 'cannon/kittencannon',
     
     // edgelord
-    'SkullKid': 'edgelord/',
-    'thegame': 'edgelord/',
-    'DivineIntervention': 'edgelord/',
+    'SkullKid': 'edgelord/63747_skullkid202c',
+    'thegame': 'edgelord/467574_THe_game_Maxgames',
+    'DivineIntervention': 'edgelord/1055',
     
     // puzzle
     'IWishIWereTheMoon': 'puzzle/',
@@ -24,24 +24,24 @@ const gamesLookup = {
     'GrowCube': 'puzzle/',
     'Cursor10': 'puzzle/',
 
-    // animation
+    // animation - Launcher
     'XiaoXiao2': 'animation/',
     'XiaoXiao4': 'animation/',
     'FlyGuy': 'animation/',
     'DungeonEscape': 'animation/',
 
     // orisinal
-    'TheLittePigs': 'orisinal/',
-    'WinterBells': 'orisinal/',
-    'PocketfulOfStars': 'orisinal/',
+    'TheseLittePigs': 'orisinal/00pig',
+    'WinterBells': 'orisinal/00bells',
+    'PocketfulOfStars': 'orisinal/00stars',
 
     // gamer
-    'BallRevamped2': 'gamer/',
-    'Motherload': 'gamer/',
-    'LittleRocketman': 'gamer/',
+    'BallRevamped2': 'gamer/ball-revamped-2-metaphysik',
+    'Motherload': 'gamer/8khsgfbehb',
+    'LittleRocketman': 'gamer/jump',
 
     // dressup
-    'CreateARide': 'dressup/'
+    'CreateARide': 'dressup/createaride'
 }
 
 

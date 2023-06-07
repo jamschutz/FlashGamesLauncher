@@ -1,0 +1,66 @@
+<head>
+    <link rel="stylesheet" href="/core/dumpling/dumpling.css">
+    <link rel="stylesheet" href="launcher.css">
+    <style>
+        body {
+            background-color: #5acb96;
+        }
+    </style>
+</head>
+
+
+<body style="width:100%; height:100%">
+
+    <!--
+        temperaments:
+        - choleric: no resizing
+        - phlegmatic: does have resizing
+        - sanguine: distorts window
+    -->
+    <div class="dumpling-container">
+        <!-- Xiao Xiao No. 2 -->
+        <a-dumpling no-back temperament="choleric" title="Xiao Xiao No. 2 by Zhu Zhiqiang" id="XiaoXiao2" w="69" h="55" min-x="-10" max-x="10" min-y="-4" max-y="10" hidden>
+            <d-iframe style="--scaleFactor: 1.0;" src="/index.html#XiaoXiao2" allowfullscreen="" width="1280" height="740" frameborder="0"></d-iframe>
+        </a-dumpling>
+
+        <!-- Xiao Xiao No. 4 -->
+        <a-dumpling no-back temperament="choleric" title="Xiao Xiao No. 4 by Zhu Zhiqiang" id="XiaoXiao4" w="69" h="55" min-x="-10" max-x="10" min-y="-4" max-y="10" hidden>
+            <d-iframe style="--scaleFactor: 1.0;" src="/index.html#XiaoXiao4" allowfullscreen="" width="1280" height="740" frameborder="0"></d-iframe>
+        </a-dumpling>
+
+        <!-- Fly Guy -->
+        <a-dumpling no-back temperament="choleric" title="Fly Guy by Trevon van Meter" id="FlyGuy" w="69" h="55" min-x="-10" max-x="10" min-y="-4" max-y="10" hidden>
+            <d-iframe style="--scaleFactor: 1.0;" src="/index.html#FlyGuy" allowfullscreen="" width="1280" height="740" frameborder="0"></d-iframe>
+        </a-dumpling>
+
+        <!-- Dungeon Escape -->
+        <a-dumpling no-back temperament="choleric" title="Dungeon Escape by R. Hunter Gough" id="DungeonEscape" w="69" h="55" min-x="-10" max-x="10" min-y="-4" max-y="10" hidden>
+            <d-iframe style="--scaleFactor: 1.0;" src="/index.html#DungeonEscape" allowfullscreen="" width="1280" height="740" frameborder="0"></d-iframe>
+        </a-dumpling>
+        
+
+        <a-dumpling layer="explanation" no-close no-back temperament="phlegmatic" title="what is this??" id="what" x="112" y="80" w="30" h="21">
+            <p>
+                this is a selection of early flash games from 2001 to 2008, this particular page displays some games in which attempts to engage with current politics of the time were made. curated for the Continental Breakfast show at<a target="_blank" rel=”noreferrer noopener” href="https://boshis-place.github.io">Boshi's Place</a>
+            </p>
+            <p style="text-align: right;">
+                - danny, hao, joey, lorg, mut
+            </p>
+        </a-dumpling>
+    </div>
+
+    <div id=" icons" class="icons">
+        <!--If you want to add more icons that open frames just copy the structure below: target is the a-dumpling's id you want the icon to open, and src is a link to the image for the icon -->
+        <pc-icon target="XiaoXiao2" name="Xiao Xiao No. 2" src="./images/icons/XiaoXiao2.png"></pc-icon>
+
+        <pc-icon target="XiaoXiao4" name="Xiao Xiao No. 4" src="./images/icons/XiaoXiao4.png"></pc-icon>
+
+        <pc-icon target="FlyGuy" name="Fly Guy" src="./images/icons/FlyGuy.png"></pc-icon>
+
+        <pc-icon target="DungeonEscape" name="Dungeon Escape" src="./images/icons/DungeonEscape.png"></pc-icon>
+    </div>
+
+    <script type="module" src="/core/d-iframe.js"></script>
+    <script type="module" src="/core/dumpling/a-dumpling.js"></script>
+    <script type="module" src="launcher.js"></script>
+</body>
