@@ -13,12 +13,12 @@ const gamesLookup = {
     'DropKickTheFaint': 'cannon/dropkick/dropkickthefaint',
     'KittenCannon': 'cannon/kittencannon',
     
-    // edgelord
+    // edgelord - launcher
     'SkullKid': 'edgelord/63747_skullkid202c',
     'thegame': 'edgelord/467574_THe_game_Maxgames',
     'DivineIntervention': 'edgelord/1055',
     
-    // puzzle
+    // puzzle - launcher
     'IWishIWereTheMoon': 'puzzle/moonwish2',
     'Samorost': 'puzzle/samorost/main',
     'GrowCube': 'puzzle/grow_cube_v2',
@@ -30,17 +30,17 @@ const gamesLookup = {
     'FlyGuy': 'animation/fly guy',
     'DungeonEscape': 'animation/dungeon',
 
-    // orisinal
+    // orisinal - launcher
     'TheseLittePigs': 'orisinal/00pig',
     'WinterBells': 'orisinal/00bells',
     'PocketfulOfStars': 'orisinal/00stars',
 
-    // gamer
+    // gamer - launcher
     'BallRevamped2': 'gamer/ball-revamped-2-metaphysik',
     'Motherload': 'gamer/8khsgfbehb',
     'LittleRocketman': 'gamer/jump',
 
-    // dressup
+    // dressup - launcher
     'CreateARide': 'dressup/createaride'
 }
 
