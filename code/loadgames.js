@@ -48,7 +48,7 @@ const gamesLookup = {
 window.RufflePlayer = window.RufflePlayer || {};
 window.addEventListener("load", (event) => {
     const ruffle = window.RufflePlayer.newest();
-    const player = ruffle.createPlayer();
+    var player = ruffle.createPlayer();
     const container = document.getElementById("container");
     var game = window.location.hash.substring(1); // lop off the leading '#'
     container.appendChild(player);
@@ -57,6 +57,20 @@ window.addEventListener("load", (event) => {
 
     var pathToGame = gamesLookup[game];
 
-    console.log(`path to game: ${pathToGame}`)
+    console.log(`path to game: ${pathToGame}`);
+
+    // if(game === 'GrowCube') {
+    //     console.log('grow cube');
+    //     player.height = '500px';
+    // }
+    // else {
+    //     console.log(game);
+    // }
     player.load(`games/${pathToGame}.swf`);
+
+    if(game === 'GrowCube') {
+        console.log('updating height for grow cube');
+        var rufflePlayer = document.getElementsByTagName('ruffle-player');
+        rufflePlayer[0].style.height = '500px';
+    }
 });

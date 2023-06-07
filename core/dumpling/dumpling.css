@@ -177,7 +177,7 @@ d-iframe iframe {
 
 .Frame-body iframe {
   box-sizing: border-box;
-  background: white;
+  background: black;
   overflow: hidden;
   width: 100%;
   height: 100%;
