@@ -4,7 +4,7 @@ const gamesLookup = {
     'EmoGame': 'politics/EmoGame',
     'AntiWarGame': 'politics/antiwar_game/_container',
     
-    // clones
+    // clones - launcher
     'UltimateFlashSonic': 'clones/151706_ultimate_sonic202c',
     'FlashPortal': 'clones/portal2',
     
