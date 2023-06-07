@@ -1,0 +1,81 @@
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+.icons {
+    position: absolute;
+    /* This is becoming a very common pattern */
+    top: 2%;
+    left: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+
+.icon {
+    cursor: pointer;
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 9% 4% 0;
+    padding: 0.5% 1% 0.3% 1%;
+
+    font-family: monospace;
+    font-size: 1vw;
+    text-align: center;
+    border: 0.05em rgba(0, 0, 0, 0) solid;
+}
+
+.icon:hover {
+    background: rgba(244, 251, 255, 0.2);
+    border: 0.05em rgb(244, 251, 255, 0.4) solid;
+}
+
+.icon-hidden {
+    display: none;
+}
+
+.icon-opened {
+    background: rgba(244, 251, 255, 0.2);
+    border: 0.05em rgb(244, 251, 255, 0.4) solid;
+}
+
+.icon-opened img {
+    filter: invert(1);
+}
+
+.icon img {
+    image-rendering: pixelated;
+    width: 90%;
+    /* width: 2%; */
+    /* height: 2%; */
+}
+
+.icon-text {
+    color: white;
+    margin-top: 8%;
+}
+
+iframe {
+    border: 0;
+    /* --scaleFactor: 0.6; */
+    /*scale iframe content by this factor (probably breaks on older browsers)*/
+    width: calc(100%/var(--scaleFactor)) !important;
+    height: calc(100%/var(--scaleFactor)) !important;
+    transform: scale(var(--scaleFactor));
+    transform-origin: top left
+}
+
+.dumpling-container {
+    position: fixed;
+    top: 5vmin;
+    left: 55vmin;
+    width: 90vmin;
+    height: 90vmin;
+    z-index: 10;
+    pointer-events: none;
+}
