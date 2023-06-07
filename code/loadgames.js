@@ -1,5 +1,5 @@
 const gamesLookup = {
-    // politics - Launcher
+    // politics - launcher
     'SpecOps': 'politics/40095_wot202c',
     'EmoGame': 'politics/EmoGame',
     'AntiWarGame': 'politics/antiwar_game/_container',
@@ -8,7 +8,7 @@ const gamesLookup = {
     'UltimateFlashSonic': 'clones/151706_ultimate_sonic202c',
     'FlashPortal': 'clones/portal2',
     
-    // cannon
+    // cannon - launcher
     'NanacaCrash': 'cannon/nanaca-crash_v110',
     'DropKickTheFaint': 'cannon/dropkick/dropkickthefaint',
     'KittenCannon': 'cannon/kittencannon',
@@ -19,16 +19,16 @@ const gamesLookup = {
     'DivineIntervention': 'edgelord/1055',
     
     // puzzle
-    'IWishIWereTheMoon': 'puzzle/',
-    'Samorost': 'puzzle/',
-    'GrowCube': 'puzzle/',
-    'Cursor10': 'puzzle/',
+    'IWishIWereTheMoon': 'puzzle/moonwish2',
+    'Samorost': 'puzzle/samorost/main',
+    'GrowCube': 'puzzle/grow_cube_v2',
+    'Cursor10': 'puzzle/cursor10',
 
-    // animation - Launcher
-    'XiaoXiao2': 'animation/',
-    'XiaoXiao4': 'animation/',
-    'FlyGuy': 'animation/',
-    'DungeonEscape': 'animation/',
+    // animation - launcher
+    'XiaoXiao2': 'animation/17306_fight2',
+    'XiaoXiao4': 'animation/25718_Xiaoxiao_4',
+    'FlyGuy': 'animation/fly guy',
+    'DungeonEscape': 'animation/dungeon',
 
     // orisinal
     'TheseLittePigs': 'orisinal/00pig',
