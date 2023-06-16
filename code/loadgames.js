@@ -37,7 +37,7 @@ const gamesLookup = {
 
     // gamer - launcher
     'BallRevamped2': 'gamer/ball-revamped-2-metaphysik',
-    'Motherload': 'gamer/8khsgfbehb',
+    'Motherload': 'gamer/main',
     'LittleRocketman': 'gamer/jump',
 
     // dressup - launcher
