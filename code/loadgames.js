@@ -69,4 +69,9 @@ window.addEventListener("load", (event) => {
         rufflePlayer[0].style.width = '700px';
         rufflePlayer[0].style.height = '400px';
     }
+    else if(game === 'DropKickTheFaint') {
+        console.log('updating height for grow cube');
+        var rufflePlayer = document.getElementsByTagName('ruffle-player');
+        rufflePlayer[0].style.width = '800px';
+    }
 });
