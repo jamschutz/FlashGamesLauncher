@@ -37,7 +37,7 @@ const gamesLookup = {
 
     // gamer - launcher
     'BallRevamped2': 'gamer/ball-revamped-2-metaphysik',
-    'Motherload': 'gamer/8khsgfbehb',
+    'Motherload': 'gamer/main',
     'LittleRocketman': 'gamer/jump',
 
     // dressup - launcher
@@ -56,21 +56,22 @@ window.addEventListener("load", (event) => {
     console.log(`loading game ${game}`)
 
     var pathToGame = gamesLookup[game];
-
-    console.log(`path to game: ${pathToGame}`);
-
-    // if(game === 'GrowCube') {
-    //     console.log('grow cube');
-    //     player.height = '500px';
-    // }
-    // else {
-    //     console.log(game);
-    // }
     player.load(`games/${pathToGame}.swf`);
 
     if(game === 'GrowCube') {
         console.log('updating height for grow cube');
         var rufflePlayer = document.getElementsByTagName('ruffle-player');
         rufflePlayer[0].style.height = '500px';
+    }
+    else if(game === 'NanacaCrash') {
+        console.log('updating height for grow cube');
+        var rufflePlayer = document.getElementsByTagName('ruffle-player');
+        rufflePlayer[0].style.width = '700px';
+        rufflePlayer[0].style.height = '400px';
+    }
+    else if(game === 'DropKickTheFaint') {
+        console.log('updating height for grow cube');
+        var rufflePlayer = document.getElementsByTagName('ruffle-player');
+        rufflePlayer[0].style.width = '800px';
     }
 });
