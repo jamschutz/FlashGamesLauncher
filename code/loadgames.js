@@ -41,7 +41,9 @@ const gamesLookup = {
     'LittleRocketman': 'gamer/jump',
 
     // dressup - launcher
-    'CreateARide': 'dressup/createaride'
+    'CreateARide': 'dressup/createaride',
+    'AlexaGoesScene': 'dressup/alexa-goes-scene',
+    'RoiworldLOTR': 'dressup/dr041'
 }
 
 
