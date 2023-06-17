@@ -61,19 +61,21 @@ window.addEventListener("load", (event) => {
     player.load(`games/${pathToGame}.swf`);
 
     if(game === 'GrowCube') {
-        console.log('updating height for grow cube');
         var rufflePlayer = document.getElementsByTagName('ruffle-player');
         rufflePlayer[0].style.height = '500px';
     }
     else if(game === 'NanacaCrash') {
-        console.log('updating height for grow cube');
         var rufflePlayer = document.getElementsByTagName('ruffle-player');
         rufflePlayer[0].style.width = '700px';
         rufflePlayer[0].style.height = '400px';
     }
     else if(game === 'DropKickTheFaint') {
-        console.log('updating height for grow cube');
         var rufflePlayer = document.getElementsByTagName('ruffle-player');
         rufflePlayer[0].style.width = '800px';
+    }
+    else if(game === 'EmoGame') {
+        var rufflePlayer = document.getElementsByTagName('ruffle-player');
+        rufflePlayer[0].style.width = '800px';
+        rufflePlayer[0].style.height = '500px';
     }
 });
