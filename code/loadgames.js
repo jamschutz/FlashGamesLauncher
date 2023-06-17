@@ -31,7 +31,7 @@ const gamesLookup = {
     'DungeonEscape': 'animation/dungeon',
 
     // orisinal - launcher
-    'TheseLittePigs': 'orisinal/00pig',
+    'TheseLittlePigs': 'orisinal/00pig',
     'WinterBells': 'orisinal/00bells',
     'PocketfulOfStars': 'orisinal/00stars',
 
